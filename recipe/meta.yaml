@@ -1,5 +1,5 @@
 {% set name = "bivario" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/bivario-{{ version }}.tar.gz
-  sha256: 7aa25874f2fb53493c1381e8d7bb78b1f4008fe3ffaa4acf65350c363b4da1a9
+  sha256: 802271b26563d35044534fb698f59dc3a07ff5fa4d1f2971b5195013f10b079b
 
 build:
   noarch: python
