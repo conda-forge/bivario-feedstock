@@ -1,13 +1,13 @@
 {% set name = "bivario" %}
-{% set version = "0.3.1" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/bivario-{{ version }}.tar.gz
-  sha256: 802271b26563d35044534fb698f59dc3a07ff5fa4d1f2971b5195013f10b079b
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/bivario-{{ version }}.tar.gz
+  sha256: 210ff2a289696f9f0537c6b3b5ef84afba0bc11f931b5a834a846da1865317ae
 
 build:
   noarch: python
